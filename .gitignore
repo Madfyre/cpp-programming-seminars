@@ -1,0 +1,7 @@
+build/
+out/
+*.o
+*.dSYM/
+.DS_Store
+.idea/
+.vscode/
