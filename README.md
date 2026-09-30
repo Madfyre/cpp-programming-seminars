@@ -49,3 +49,15 @@ cmake --build build/seminar1
 clang++ -std=c++23 -g -fsanitize=address Seminar2/sample.cpp -o sample
 ./sample
 ```
+
+## Семинар 3 — свой класс Matrix
+
+`Seminar3/matrix.cpp` — матрица с ручным управлением памятью: перегрузка
+арифметических операторов, поэлементное умножение через `&`, вывод в поток
+и многомерный `operator[](row, col)` — это возможность C++23, в более ранних
+стандартах так не получится.
+
+```bash
+clang++ -std=c++23 -Wall -Wextra Seminar3/matrix.cpp -o matrix
+./matrix
+```
