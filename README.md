@@ -8,7 +8,7 @@
 `git pull` в склонированном репозитории.
 
 ```bash
-git clone git@git.culab.ru:courses/cpp-programming/cpp-programming-seminars.git
+git clone https://github.com/Madfyre/cpp-programming-seminars.git
 ```
 
 Курс собирается на Clang, все примеры проверены с ним.
