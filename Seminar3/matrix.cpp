@@ -62,7 +62,7 @@ public:
 
         Matrix result(rows_, other.cols_);
         for (size_t row = 0; row < rows_; row++) {
-            for (size_t col = 0; col < cols_; col++) {
+            for (size_t col = 0; col < other.cols_; col++) {
                 float accum = 0;
                 for (size_t accum_ind = 0; accum_ind < other.rows_; accum_ind++) {
                     accum += (*this)[row, accum_ind] * other[accum_ind, col];
