@@ -56,3 +56,12 @@ clang++ -std=c++23 -g -fsanitize=address Seminar2/sample.cpp -o sample
 clang++ -std=c++23 -Wall -Wextra Seminar3/matrix.cpp -o matrix
 ./matrix
 ```
+
+## Семинар 7 — templates
+
+`Seminar7/templates.cpp` — тюремные загадки про темплейты и про то, как они работают. Как компилятор солвит темплейтный код.
+
+```bash
+clang++ -std=c++23 -Wall -Wextra Seminar7/templates.cpp -o templates
+./templates
+```
